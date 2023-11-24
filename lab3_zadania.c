@@ -103,7 +103,98 @@ int main(){
     //     printf("%d ", tab[i]);
     // }
     
+    //ZAD 7
 
+    // int suma = 0;
+    // int macierz[3][3];
+
+    // for (int i = 0; i < 3; i++) {
+    //     for (int j = 0; j < 3; j++) {
+    //         macierz[i][j] = i * 3 + j + 2;
+    //     }
+    // }
+
+    // printf("Macierz:\n");
+    // for (int i = 0; i < 3; i++) {
+    //     for (int j = 0; j < 3; j++) {
+    //         printf("%d\t", macierz[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // for (int i = 0; i < 3; i++) {
+    //     for (int j = 0; j < 3; j++) {
+    //         if (i == j)
+    //         {
+    //            suma+=macierz[i][j];
+    //         }
+            
+    //     }
+    // }
+
+    // printf("\nSuma przekatnej macierzy wynosi: %d", suma);
+
+    //ZAD 8
+
+    // int macierzSuma[3][3];
+    // int macierz1[3][3], macierz2[3][3];
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     macierz1[i][j] = i * 4 + j + 3;
+    //  }
+    // }
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     macierz2[i][j] = i * 2 + j + 2;
+    //  }
+    // }
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     printf("%d\t", macierz1[i][j]);
+    //  }
+    //  printf("\n");
+    // }
+
+    // printf("\n\n");
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     printf("%d\t", macierz2[i][j]);
+    //  }
+    //  printf("\n");
+    // }
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     macierzSuma[i][j] = macierz1[i][j] + macierz2[i][j];
+    //  }
+    // }
+    
+    // printf("\n\nSuma macierzy 1 i 2: \n");
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //  for (int j = 0; j < 3; j++)
+    //  {
+    //     printf("%d\t", macierzSuma[i][j]);
+    //  }
+    //  printf("\n");
+    // }
+
+    
 
     return 0;
 
